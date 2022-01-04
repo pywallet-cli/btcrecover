@@ -19,7 +19,7 @@
 # If you find this program helpful, please consider a small
 # donation to the developer at the following Bitcoin address:
 #
-#           3Au8ZodNHPei7MQiSVAWb7NB2yqsb48GW4
+#           bc1qqtspvvyl5nv2dwffd0zwppledlmct7sydpd9l5
 #
 #                      Thank You!
 
@@ -41,18 +41,7 @@ if __name__ == "__main__":
 	if isinstance(password_found, str):
 		print()
 		print("If this tool helped you to recover funds, please consider donating 1% of what you recovered, in your crypto of choice to:")
-		print("BTC: 37N7B7sdHahCXTcMJgEnHz7YmiR4bEqCrS ")
-		print("BCH: qpvjee5vwwsv78xc28kwgd3m9mnn5adargxd94kmrt ")
-		print("LTC: M966MQte7agAzdCZe5ssHo7g9VriwXgyqM ")
-		print("ETH: 0x72343f2806428dbbc2C11a83A1844912184b4243 ")
-
-		#print("VTC: vtc1qxauv20r2ux2vttrjmm9eylshl508q04uju936n ")
-		#print("ZEN: znUihTHfwm5UJS1ywo911mdNEzd9WY9vBP7 ")
-		#print("DASH: Xx2umk6tx25uCWp6XeaD5f7CyARkbemsZG ")
-		#print("DOGE: DMQ6uuLAtNoe5y6DCpxk2Hy83nYSPDwb5T ")
-		#print("XMR: 48wnuLYsPY7ewLQyF4RLAj3N8CHH4oBBcaoDjUQFiR4VfkgPNYBh1kSfLx94VoZSsGJnuUiibJuo7FySmqroAi6c1MLWHYF ")
-		#print("MONA: mona1q504vpcuyrrgr87l4cjnal74a4qazes2g9qy8mv ")
-		#print("XVG: DLZDT48wfuaHR47W4kU5PfW1JfJY25c9VJ")
+		print("BTC: bc1qqtspvvyl5nv2dwffd0zwppledlmct7sydpd9l5 ")
 		print()
 		print("Find me on Reddit @ https://www.reddit.com/user/Crypto-Guide")
 		print()

